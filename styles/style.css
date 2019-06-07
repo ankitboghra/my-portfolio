@@ -78,6 +78,17 @@ a:hover {
     color: #ddd;
 }
 
+.contact-me {
+    max-height: 300px;
+    max-width: 200px;
+    background-color: rgb(196, 196, 196);
+    margin-left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+    border-radius: 20% 0;
+}
+
 /* Animated Background */
 
 .bkg-animated {
