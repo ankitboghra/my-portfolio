@@ -1,44 +1,106 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141695821-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-141695821-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-        gtag('config', 'UA-141695821-1');
+      gtag('config', 'UA-141695821-1');
     </script>
     <!-- End-  Global site tag (gtag.js) - Google Analytics -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="ankitboghra" />
+    <meta
+      name="description"
+      content="Software Engineer, Web Designer and Developer based in Surat, Gujarat."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ankit Boghra | Software Engineer</title>
-    <meta name="description" content="Software Engineer, Web Designer and Developer based in Surat, Gujarat.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/png" />
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/left-section.css" />
+    <link rel="stylesheet" href="./styles/right-section.css" />
+  </head>
 
-<body id="body" class="bkg-animated">
-    <div class="main">
-        <img class="profile-photo" src="./assets/profile-pic.jpeg"/>
-        <a href="http://codeswim.in/resume" target="blank" title="Know me more!"><h1>Ankit Boghra</h1></a>
-        <p class="intro">
-            Hi, I'm Ankit, Software Engineer, Web Developer &amp; Designer based in Bengaluru, Karnataka, IN. I also happen to
-            be founder at <a href="http://codeswim.in" target="blank" title="Go to codeswim.in">CodeSwim</a>. Available for
-            freelance projects.
+  <body>
+    <div class="page-container">
+      <div class="left-container">
+        <h1>Ankit Boghra</h1>
+        <img class="profile-pic" src="./assets/profile-pic.jpeg" alt="" />
+        <p class="">
+          Hi, my name is Ankit. I am a software engineer. Welcome to my personal
+          website.
         </p>
-        <p class="links">
-            <a href="http://github.com/ankitboghra" target="blank" title="Fork my code on github.">Github</a>
-            <span>/</span>
-            <a href="mailto:ankitboghra@gmail.com" target="blank" title="Let's chat.">Email</a>
-            <span>/</span>
-            <a href="http://codeswim.in/resume" target="blank" title="Know me!">Resume</a>
-        </p>
+        <div class="social-icons">
+          <a target="_blank" href="https://linkedin.com/in/ankitboghra">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a target="_blank" href="https://github.com/ankitboghra">
+            <i class="fa fa-github"> </i
+          ></a>
+          <a target="_blank" href="https://medium.com/@ankitboghra">
+            <i class="fa fa-medium"> </i
+          ></a>
+          <a href="mailto:ankitboghra@gmail.com" target="_blank">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </div>
+        <hr class="divider" />
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a target="" href="#home"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a target="" href="#about"><i class="fa fa-user"></i>About</a>
+            </li>
+            <li>
+              <a target="" href="#portfolio"
+                ><i class="fa fa-laptop"></i>Portfolio</a
+              >
+            </li>
+            <li>
+              <a target="" href="#resume"
+                ><i class="fa fa-briefcase"></i>Resume</a
+              >
+            </li>
+            <li>
+              <a target="" href="#blog"><i class="fa fa-medium"></i> Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hire-me">Hire Me</button>
+      </div>
+      <div class="hidden-left"></div>
+      <div class="right-container">
+        <main>
+          <article id="home" class="article home-background">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea,
+            quisquam cumque sapiente repellendus nihil necessitatibus blanditiis
+            officia cupiditate nemo dicta dolor distinctio vitae aut. Quisquam,
+            porro! Iure, voluptas. Quasi!
+          </article>
+          <article id="about" class="article about-background">about</article>
+          <article id="portfolio" class="article portfolio-background">
+            portfolio
+          </article>
+          <article id="resume" class="article">resume</article>
+          <article id="blog" class="article">blog</article>
+        </main>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

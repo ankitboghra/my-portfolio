@@ -1,0 +1,48 @@
+.article {
+  height: 100vh;
+  padding: 1em;
+  /* background-color: red; */
+}
+
+#home {
+  background-color: #000;
+  /* color: #FFF; */
+  /* background-color: var(--color-secondary); */
+}
+
+.home-background {
+  background: gray url(../assets/background-geometry.png) repeat 0 0;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+#about {
+  background-color: var(--color-tertiary);
+}
+
+.about-background {
+  background: gray url(../assets/ethnic-floral.jpg) repeat 0 0;
+  /* -webkit-animation: slide-up 20s linear infinite; */
+}
+
+.portfolio-background {
+  background: gray url(../assets/hexagonal-pattern.jpg) repeat 0 0;
+  /* -webkit-animation: slide-up 20s linear infinite; */
+}
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
+@-webkit-keyframes slide-up {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -400px;
+  }
+}
