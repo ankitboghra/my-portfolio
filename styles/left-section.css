@@ -3,7 +3,7 @@
 }
 
 .profile-pic {
-  width: 80%;
+  width: 50%;
   border-radius: 50%;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .divider {
-  border: 1px solid var(--color-light);
+  border: 0.1em solid var(--color-light);
 }
 
 .navigation {
@@ -68,7 +68,7 @@
 .hire-me {
   background-color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 2em;
   color: #766dff;
   cursor: pointer;
   font-weight: 900;

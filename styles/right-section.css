@@ -1,18 +1,7 @@
 .article {
   height: 100vh;
-  padding: 1em;
+  /* padding: 2em 5em; */
   /* background-color: red; */
-}
-
-#home {
-  background-color: #000;
-  /* color: #FFF; */
-  /* background-color: var(--color-secondary); */
-}
-
-.home-background {
-  background: gray url(../assets/background-geometry.png) repeat 0 0;
-  -webkit-animation: slide 20s linear infinite;
 }
 
 #about {
